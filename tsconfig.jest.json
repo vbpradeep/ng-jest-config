@@ -1,0 +1,13 @@
+// tsconfig.jest.json
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "outDir": "./jest/types",
+      "declaration": true,          // Enable declaration file generation
+      "emitDeclarationOnly": true,   // Only emit declaration files, no .js output
+      "types": ["jest"],             // Include jest types
+      "typeRoots": ["node_modules/@types"]
+    },
+    "include": ["jest/helper.ts"]      // Specify files to be included
+  }
+  

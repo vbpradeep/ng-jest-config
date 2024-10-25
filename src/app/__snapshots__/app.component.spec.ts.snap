@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should have as title 'ng-jest-integration' 1`] = `
+<div
+  id="root2"
+>
+  <h1>
+    Hello, ng-jest-integration
+  </h1>
+  <app-api-component>
+    
+  </app-api-component>
+  <app-event-component>
+    <p>
+      event-component works!
+    </p>
+    <button
+      id="btn"
+    >
+       Click! 
+    </button>
+  </app-event-component>
+  <router-outlet />
+  
+</div>
+`;
